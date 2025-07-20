@@ -45,25 +45,27 @@ json-schema-builder/
  [View Project](https://jsonschemabuilder-gamma.vercel.app/)
 
 
-# Core dependencies
-react
-react-dom
-react-hook-form
-antd
-@ant-design/icons
-lucide-react
+## Core Dependencies
 
-# Dev dependencies
-vite
-typescript
-@vitejs/plugin-react
-tailwindcss
-postcss
-autoprefixer
-eslint
-@types/react
-@types/react-dom
----
+- react  
+- react-dom  
+- react-hook-form  
+- antd  
+- @ant-design/icons  
+- lucide-react  
+
+## Dev Dependencies
+
+- vite  
+- typescript  
+- @vitejs/plugin-react  
+- tailwindcss  
+- postcss  
+- autoprefixer  
+- eslint  
+- @types/react  
+- @types/react-dom  
+
 
 ## Installation
 
