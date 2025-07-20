@@ -12,26 +12,34 @@ This project lets users visually build JSON schemas by adding, editing, and remo
 -  Easy to extend and integrate
 
 -  ## Tech Stack
-
 - ReactJS
 - Ant Design (AntD)
 - JavaScript (ES6)
 
+## Project Structure
 
-Project Structure:
-
+```
 json-schema-builder/
+├── public/
+│   └── index.html               # HTML entry point
 ├── src/
-│   ├── components/
-│   │   ├── SchemaBuilder.tsx
-│   │   ├── FieldsList.tsx
-│   │   ├── FieldItem.tsx
-│   │   └── JsonPreview.tsx
-│   ├── App.tsx
-│   ├── App.css
-│   └── main.tsx
-├── package.json
-└── index.html
+│   ├── components/              # Reusable React components
+│   │   ├── SchemaBuilder.tsx    # Main component for schema building
+│   │   ├── FieldsList.tsx       # Displays available fields
+│   │   ├── FieldItem.tsx        # Individual field item
+│   │   └── JsonPreview.tsx      # Live JSON schema preview
+│   ├── App.tsx                  # Root component
+│   ├── App.css                  # Global styles
+│   └── main.tsx                 # Application entry point
+├── .eslintrc.js                 # ESLint configuration
+├── postcss.config.js            # PostCSS configuration
+├── tailwind.config.js           # TailwindCSS configuration
+├── tsconfig.json                # TypeScript configuration
+├── vite.config.ts               # Vite configuration
+├── package.json                 # Project metadata and scripts
+└── README.md                    # Project documentation (this file)
+```
+
 
 ## Demo
  [View Project](https://jsonschemabuilder-gamma.vercel.app/)
