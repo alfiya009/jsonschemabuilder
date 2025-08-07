@@ -14,7 +14,6 @@ This project lets users visually build JSON schemas by adding, editing, and remo
 -  ## Tech Stack
 - ReactJS
 - Ant Design (AntD)
-- JavaScript (ES6)
 
 ## Project Structure
 
